@@ -1,7 +1,7 @@
 # 机学习项目集
 ----
 
-使用机器学习的办法,从网上下载多个数据集进行训练学习人工智能技术
+使用机器学习的办法,从网上下载多个数据集进行训练学习人工智能技术 
 # 必备条件
 请提前下载好Python、numpy、pandas、matplotlib和**skleran**开发环境,否则该项目无法使用,
 我的开发环境是直接安装anaconda3.4,点击此处下载(https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)  
