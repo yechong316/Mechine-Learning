@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce9bcfba-0189-403e-afce-76ecd8108cee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Machine learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Machine learning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../matplotlib/Arctest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../matplotlib/Arctest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numpy/numpy-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../numpy/numpy-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../数学基础/Large numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../数学基础/Large numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/01_低能耗家耗电量(标准办法与多项式拟合).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/result/househole_appliances_lr" beforeDir="false" afterPath="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/result/househole_appliances_lr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/result/househole_appliances_ss" beforeDir="false" afterPath="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/result/househole_appliances_ss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/低能耗家电电源回归模型预测.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +16,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/低能耗家电电源回归模型预测.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/01_低能耗家耗电量(标准办法与多项式拟合).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="-129">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/02_低能耗家电耗电量-管道流.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/03_低能耗家电耗电量-5种线性模型.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1270#1393#0" />
+                <element signature="e#1504#1637#0" />
+                <element signature="e#2125#2264#0" />
+                <element signature="e#3039#3069#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ridege.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="e#88#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="3788" column="4" selection-start-line="3788" selection-start-column="4" selection-end-line="3788" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/axes/_axes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="1340" column="11" selection-start-line="1340" selection-start-column="8" selection-end-line="1340" selection-end-column="11" />
+              <caret line="1341" column="11" selection-start-line="1341" selection-start-column="8" selection-end-line="1341" selection-end-column="11" />
+              <caret line="1342" column="11" selection-start-line="1342" selection-start-column="8" selection-end-line="1342" selection-end-column="11" />
+              <caret line="1343" column="11" selection-start-line="1343" selection-start-column="8" selection-end-line="1343" selection-end-column="11" />
+              <caret line="1344" column="11" selection-start-line="1344" selection-start-column="8" selection-end-line="1344" selection-end-column="11" />
+              <caret line="1345" column="11" selection-start-line="1345" selection-start-column="8" selection-end-line="1345" selection-end-column="11" />
+              <caret line="1346" column="11" selection-start-line="1346" selection-start-column="8" selection-end-line="1346" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/cbook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="1563" column="8" selection-start-line="1563" selection-start-column="8" selection-end-line="1563" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -36,8 +110,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RidgeCV</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>LinearRegression</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/01_低能耗家耗电量(标准办法与多项式拟合).py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/03_低能耗家电耗电量-5种线性模型.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,13 +132,21 @@
         <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/__init__.py" />
         <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/time2str.py" />
         <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/低能耗家电电源调用.py" />
+        <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/临时文件.py" />
+        <option value="$USER_HOME$/Downloads/Untitled6.py" />
         <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/低能耗家电电源回归模型预测.py" />
+        <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/02.py" />
+        <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/01_低能耗家电电源回归模型预测(标准办法与多项式拟合).py" />
+        <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/03_低能耗家电耗电量-4种拟合方式.py" />
+        <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/02_低能耗家电耗电量-管道流.py" />
+        <option value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/03_低能耗家电耗电量-5种线性模型.py" />
+        <option value="$PROJECT_DIR$/ridege.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-355" />
-    <option name="y" value="313" />
+    <option name="y" value="311" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -64,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,19 +174,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/旧电脑/人工智能/05_随堂代码/sklearn11/1104" />
+    <property name="last_opened_file_path" value="D:/旧电脑/人工智能/05_随堂代码/sklearn11" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\人工智能\mechine_learning" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\人工智能\mechine_learning\线性回归项目之低能耗家庭用电回归评估" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\人工智能\mechine_learning\线性回归项目之低能耗家庭用电回归评估" />
+      <recent name="D:\人工智能\mechine_learning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.低能耗家电电源回归模型预测 (1)">
+  <component name="RunManager" selected="Python.ridege">
     <configuration name="低能耗家电电源回归模型预测 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mechine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +216,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/低能耗家电电源回归模型预测.py" />
+      <option name="SCRIPT_NAME" value="D:\人工智能\mechine_learning\线性回归项目之低能耗家庭用电回归评估\01_低能耗家耗电量(标准办法与多项式拟合).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="低能耗家电电源回归模型预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02_低能耗家电耗电量-管道流" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mechine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +233,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\人工智能\mechine_learning\线性回归项目之低能耗家庭用电回归评估\低能耗家电电源回归模型预测.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/02_低能耗家电耗电量-管道流.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_低能耗家电耗电量-5种线性模型" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mechine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/03_低能耗家电耗电量-5种线性模型.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Untitled6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mechine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Untitled6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +309,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="time2str" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ridege" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mechine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,11 +317,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/time2str.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ridege.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,10 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ridege" />
+        <item itemvalue="Python.03_低能耗家电耗电量-5种线性模型" />
+        <item itemvalue="Python.02_低能耗家电耗电量-管道流" />
         <item itemvalue="Python.低能耗家电电源回归模型预测 (1)" />
-        <item itemvalue="Python.低能耗家电电源调用" />
-        <item itemvalue="Python.time2str" />
-        <item itemvalue="Python.低能耗家电电源回归模型预测" />
+        <item itemvalue="Python.Untitled6" />
       </list>
     </recent_temporary>
   </component>
@@ -217,15 +355,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13870542" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105019815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42937854" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33994335" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.79036826" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27053824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -305,12 +442,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/低能耗家电电源回归模型预测.py">
+    <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/临时文件.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Untitled6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        <state relative-caret-position="-17">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#94#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/preprocessing/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-509">
+          <caret line="1242" column="8" selection-start-line="1242" selection-start-column="8" selection-end-line="1242" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/linear_model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="30" />
+          <folding>
+            <element signature="e#456#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/cbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="1563" column="8" selection-start-line="1563" selection-start-column="8" selection-end-line="1563" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="1340" column="11" selection-start-line="1340" selection-start-column="8" selection-end-line="1340" selection-end-column="11" />
+          <caret line="1341" column="11" selection-start-line="1341" selection-start-column="8" selection-end-line="1341" selection-end-column="11" />
+          <caret line="1342" column="11" selection-start-line="1342" selection-start-column="8" selection-end-line="1342" selection-end-column="11" />
+          <caret line="1343" column="11" selection-start-line="1343" selection-start-column="8" selection-end-line="1343" selection-end-column="11" />
+          <caret line="1344" column="11" selection-start-line="1344" selection-start-column="8" selection-end-line="1344" selection-end-column="11" />
+          <caret line="1345" column="11" selection-start-line="1345" selection-start-column="8" selection-end-line="1345" selection-end-column="11" />
+          <caret line="1346" column="11" selection-start-line="1346" selection-start-column="8" selection-end-line="1346" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="3788" column="4" selection-start-line="3788" selection-start-column="4" selection-end-line="3788" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/01_低能耗家耗电量(标准办法与多项式拟合).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/03_低能耗家电耗电量-5种线性模型.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1270#1393#0" />
+            <element signature="e#1504#1637#0" />
+            <element signature="e#2125#2264#0" />
+            <element signature="e#3039#3069#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/02_低能耗家电耗电量-管道流.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ridege.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#88#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
