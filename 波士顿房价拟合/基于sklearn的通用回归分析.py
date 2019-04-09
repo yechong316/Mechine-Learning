@@ -13,6 +13,7 @@ from sklearn.linear_model import Ridge
 from sklearn.linear_model import ElasticNet
 from sklearn.linear_model import Lasso
 
+
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import PolynomialFeatures
 
@@ -44,9 +45,11 @@ x_train = ss.fit_transform(x_train)
 # thea = (x_train.T * x_train).I * x_train.T * y_train
 # print(thea)
 # 7. 模型的训练
-lr = LinearRegression()
-lr.fit(x_train, y_train)
 
+model = Pipeline([
+    ('Poly', PolynomialFeatures()),  # 给定进行多项式扩展操作， 第一个操作：多项式扩展
+    ('Linear', LinearRegression(fit_intercept=False))  # 第二个操作，线性回归
+])
 # print(len(y_pred))
 # print('**'*20)
 # print(y_test)

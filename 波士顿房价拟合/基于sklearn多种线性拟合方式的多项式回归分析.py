@@ -71,7 +71,7 @@ titles = [u'线性回归', u'Ridge回归', u'Lasso回归', u'ElasticNet']
 
 for t in range(4):
     model = models[t]  # 选择了模型--具体的pipeline(线性、Lasso、Ridge、EN)
-    print(type(model))
+    # print(type(model))
     plt.subplot(2, 2, t + 1)  # 选择具体的子图
     plt.plot(x_test, y_test, 'ro', ms=10, zorder=N - 1)  # 在子图中画原始数据点； zorder：图像显示在第几层
 
@@ -87,19 +87,19 @@ for t in range(4):
         # 也是我们在定义Pipeline的时候给定的一个名称值
         lin = model.get_params()['Linear']
         # 打印数据
-        output = u'%s:%d阶，系数为：' % (titles[t], d)
+        # output = u'%s:%d阶，系数为：' % (titles[t], d)
         # 判断lin对象中是否有对应的属性
-        if hasattr(lin, 'alpha_'):  # 判断lin这个模型中是否有alpha_这个属性
-            idx = output.find(u'系数')
-            output = output[:idx] + (u'alpha=%.6f, ' % lin.alpha_) + output[idx:]
-        if hasattr(lin, 'l1_ratio_'):  # 判断lin这个模型中是否有l1_ratio_这个属性
-            idx = output.find(u'系数')
-            output = output[:idx] + (u'l1_ratio=%.6f, ' % lin.l1_ratio_) + output[idx:]
+        # if hasattr(lin, 'alpha_'):  # 判断lin这个模型中是否有alpha_这个属性
+        #     idx = output.find(u'系数')
+        #     output = output[:idx] + (u'alpha=%.6f, ' % lin.alpha_) + output[idx:]
+        # if hasattr(lin, 'l1_ratio_'):  # 判断lin这个模型中是否有l1_ratio_这个属性
+        #     idx = output.find(u'系数')
+        #     output = output[:idx] + (u'l1_ratio=%.6f, ' % lin.l1_ratio_) + output[idx:]
         # line.coef_：获取线性模型的参数列表，也就是我们ppt中的theta值，ravel()将结果转换为1维数据
-        print(output, lin.coef_.ravel())
+        # print(output, lin.coef_.ravel())
 
         # 数据预测
-        print('转换前,x_test是:', x_test.shape)
+        # print('转换前,x_test是:', x_test.shape)
         # x_test = model.fit_transform(x_test)
         y_hat = model.predict(x_test)
         # 计算准确率
@@ -118,6 +118,7 @@ for t in range(4):
 plt.tight_layout(1, rect=(0, 0, 1, 0.95))
 plt.suptitle(u'各种不同线性回归过拟合显示', fontsize=22)
 plt.show()
+plt.savefig('./result/boston.png')
 
 
 

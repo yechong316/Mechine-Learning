@@ -39,10 +39,10 @@ thea = (x_train.T * x_train).I * x_train.T * y_train
 x_test = np.mat(x_test)
 # y_test = np.mat(y_test)
 
-y_pred = x_test * thea
+y_pred = np.mat(x_test) * thea
 # print(len(y_pred))
 # print('**'*20)
-print(y_test)
+# print(y_test)
 # 8. 模型效果评估
 # print(np.mean(y_pred - y_test.T))
 # print('均方差为:', R)
