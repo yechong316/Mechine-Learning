@@ -60,7 +60,7 @@ models = [
 ]
 
 ## 线性回归、Lasso回归、Ridge回归、ElasticNet比较
-N = 5
+N = 2
 plt.figure(facecolor='w')
 degree = np.arange(1, N, 2)  # 阶， 多项式扩展允许给定的阶数
 dm = degree.size
@@ -69,7 +69,7 @@ for c in np.linspace(16711680, 255, dm):
     colors.append('#%06x' % int(c))
 titles = [u'线性回归', u'Ridge回归', u'Lasso回归', u'ElasticNet']
 
-for t in range(4):
+for t in range(1):
     model = models[t]  # 选择了模型--具体的pipeline(线性、Lasso、Ridge、EN)
     # print(type(model))
     plt.subplot(2, 2, t + 1)  # 选择具体的子图
