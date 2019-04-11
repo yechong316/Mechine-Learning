@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce9bcfba-0189-403e-afce-76ecd8108cee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/葡萄酒预测/sklearn多个拟合方式.py" beforeDir="false" afterPath="$PROJECT_DIR$/葡萄酒预测/sklearn多个拟合方式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,39 +12,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/波士顿房价拟合/基于sklearn多种线性拟合方式的多项式回归分析.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/葡萄酒预测/sklearn多个拟合方式.py">
+        <entry file="file://$PROJECT_DIR$/葡萄酒预测/基于softmax的回归算法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+            <state relative-caret-position="57">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#1162#1246#0" />
-                <element signature="e#1268#1350#0" />
-                <element signature="e#1400#1504#0" />
-                <element signature="e#1476#1577#0" />
+                <element signature="e#1219#1280#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/linear_model/coordinate_descent.py">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3531">
-              <caret line="1233" column="6" selection-start-line="1233" selection-start-column="6" selection-end-line="1233" selection-end-column="6" />
+            <state relative-caret-position="188">
+              <caret line="1588" column="8" selection-start-line="1588" selection-start-column="8" selection-end-line="1588" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="3416" column="4" selection-start-line="3416" selection-start-column="4" selection-end-line="3416" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/linear_model/logistic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="1156" column="75" selection-start-line="1156" selection-start-column="71" selection-end-line="1156" selection-end-column="75" />
+              <folding>
+                <element signature="e#49809#51011#0" />
+                <element signature="e#51057#51577#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,6 +73,7 @@
       <find>ms</find>
       <find>degree=i</find>
       <find>algo</find>
+      <find>solver</find>
     </findStrings>
     <replaceStrings>
       <replace>LinearRegression</replace>
@@ -81,6 +89,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/01_低能耗家耗电量-标准办法与.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/03_低能耗家电耗电量-5种线性模型.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/葡萄酒预测/基于softmax的回归算法.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,14 +122,15 @@
         <option value="$PROJECT_DIR$/波士顿房价拟合/基于sklearn的多项式回归分析.py" />
         <option value="$PROJECT_DIR$/波士顿房价拟合/基于sklearn多种线性拟合方式的多项式回归分析.py" />
         <option value="$PROJECT_DIR$/葡萄酒预测/sklearn多个拟合方式.py" />
+        <option value="$PROJECT_DIR$/葡萄酒预测/基于softmax的回归算法.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="726" />
-    <option name="y" value="76" />
-    <option name="width" value="1585" />
-    <option name="height" value="955" />
+    <option name="x" value="845" />
+    <option name="y" value="105" />
+    <option name="width" value="640" />
+    <option name="height" value="345" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -137,11 +147,6 @@
             <path>
               <item name="mechine_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="mechine_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechine_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechine_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="波士顿房价拟合" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mechine_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -183,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sklearn多个拟合方式">
+  <component name="RunManager" selected="Python.基于softmax的回归算法">
     <configuration name="解析式回归分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mechine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -310,10 +315,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="基于softmax的回归算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mechine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/葡萄酒预测" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/葡萄酒预测/基于softmax的回归算法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sklearn多个拟合方式" />
-        <item itemvalue="Python.基于sklearn多种线性拟合方式的多项式回归分析" />
+        <item itemvalue="Python.基于softmax的回归算法" />
         <item itemvalue="Python.基于sklearn的多项式回归分析 (1)" />
         <item itemvalue="Python.基于sklearn的多项式回归分析" />
         <item itemvalue="Python.解析式回归分析" />
@@ -349,14 +374,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239101" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17239101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.43909347" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -364,27 +388,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.26345608" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.09490085" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.22946176" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/time2str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="1607" selection-start-line="1607" selection-end-line="1607" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/线性回归项目之低能耗家庭用电回归评估/低能耗家电电源调用.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -589,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122040">
-          <caret line="4158" column="8" selection-start-line="4158" selection-start-column="8" selection-end-line="4158" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/series.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68040">
@@ -679,16 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/波士顿房价拟合/基于sklearn多种线性拟合方式的多项式回归分析.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/linear_model/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -713,16 +706,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/波士顿房价拟合/基于sklearn多种线性拟合方式的多项式回归分析单个线性方式.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="694" column="4" selection-start-line="694" selection-start-column="4" selection-end-line="694" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/波士顿房价拟合/基于sklearn多种线性拟合方式的多项式回归分析单个线性方式.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/linear_model/ridge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -737,9 +721,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/波士顿房价拟合/基于sklearn多种线性拟合方式的多项式回归分析.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/linear_model/coordinate_descent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3531">
+        <state relative-caret-position="36360">
           <caret line="1233" column="6" selection-start-line="1233" selection-start-column="6" selection-end-line="1233" selection-end-column="6" />
         </state>
       </provider>
@@ -747,13 +741,45 @@
     <entry file="file://$PROJECT_DIR$/葡萄酒预测/sklearn多个拟合方式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1162#1246#0" />
-            <element signature="e#1268#1350#0" />
-            <element signature="e#1400#1504#0" />
-            <element signature="e#1476#1577#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="3416" column="4" selection-start-line="3416" selection-start-column="4" selection-end-line="3416" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="1588" column="8" selection-start-line="1588" selection-start-column="8" selection-end-line="1588" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/linear_model/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="1156" column="75" selection-start-line="1156" selection-start-column="71" selection-end-line="1156" selection-end-column="75" />
+          <folding>
+            <element signature="e#49809#51011#0" />
+            <element signature="e#51057#51577#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/葡萄酒预测/基于softmax的回归算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1219#1280#0" />
           </folding>
         </state>
       </provider>
