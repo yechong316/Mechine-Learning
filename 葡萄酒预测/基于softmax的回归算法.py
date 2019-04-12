@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import warnings
+from collections import Counter
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score, classification_report,confusion_matrix
@@ -16,7 +17,8 @@ mpl.rcParams['font.sans-serif'] = [u'simHei']
 # 数据加载
 data_white = pd.read_csv(r"D:\人工智能\mechine_learning\数据集\葡萄酒.csv")
 # data_red = pd.read_csv(r"D:\旧电脑\人工智能\05_随堂代码\[20181104_1110_1111]_回归算法\datas\winequality-red.csv")
-# print(data_red.info())
+# print(data_white.quality)
+print(Counter(data_white.quality).most_common())
 # data = pd.concat([data_white, data_red], axis=0)
 # data
 # print("合并后,数据的信息为:\n{}".format(data.head(5)))
