@@ -56,27 +56,27 @@ def dictionary_feature():
     实现方法:for语句遍历所有的特征, 利用Counter的函数输出每个特征下面的属性以及个数,并且由大到小排列
     eg: {'敲声': [('浊响', 10), ('沉闷', 5), ('清脆', 2)], '纹理': [('清晰', 9), ('稍糊', 5), ('模糊', 3)]....}
     '''
-    dict.update({ column:Counter(root_data[column]).most_common() for column in names_X })
+    dict.update({ column:Counter(root_data[column]).most_common() for column in labels })
     '''
     思路: 创建一个字典,字典的keys为每个特征,每个key对应的value是列表,列表中每个元素是属性
     实现方法:for语句遍历所有的特征, 利用刚刚创建好的字典查询每个特征下面的属性种类,记住
     属性的位置是第一个,所以索引号是0
     eg: {'敲声': ['浊响', '沉闷','清脆'], '纹理': ['清晰', '稍糊', '模糊']....}
     '''
-    dict_feature.update({column: [i[0] for i in dict[column]] for column in names_X })
+    dict_feature.update({column: [i[0] for i in dict[column]] for column in labels })
     return dict, dict_feature
 
 # 在当前样本下,信息熵
-def current_entropy(y):
-    '''
-    在当前样本下,信息熵
-    :param y:当前样本的类别,
-    :return: 当前样本的信息熵
-    '''
-    Ent = entropy([i[1] for i in Counter(y).most_common()])
+def current_entropy(y): return entropy([i[1] for i in Counter(y).most_common()])
+    # '''
+    # 在当前样本下,信息熵
+    # :param y:当前样本的类别,
+    # :return: 当前样本的信息熵
+    # '''
+    # Ent =
 
     # print('当前样本下,信息熵为{}'.format(Ent))
-    return Ent
+
 
 # 根据X,Y 进行拟合数据
 def fit(data):
@@ -86,28 +86,28 @@ def fit(data):
     print('X的格式:{},Y的格式:{}'.format(X.shape, Y.shape))
     assert X.shape[0] == Y.shape[0], 'X和Y的样本数应该相等!'
     
-    feature = [[i[0] for i in Counter(X[i]).most_common()] for i in names_X]
+    feature = [[i[0] for i in Counter(X[i]).most_common()] for i in labels]
     Gain_slaves = {}
     
     # 遍历样本的所有特征
     for i in range(len(feature)):
     
-        current_feature = names_X[i]
+        current_feature = labels[i]
         classtic_slave = [i[1] for i in Counter(X[current_feature]).most_common()]
         ent = [node_conditional_gain_entropy(X, Y, feature[i][j], current_feature) for j in  range(len(feature[i]))]
         Gain_slave = gain(current_entropy(Y), ent, classtic_slave)
-        # print('特征:{},条件信息熵:{:.3f}'.format(names_X[i], Gain_slave))
-        Gain_slaves.update({Gain_slave:names_X[i]})
+        # print('特征:{},条件信息熵:{:.3f}'.format(labels[i], Gain_slave))
+        Gain_slaves.update({Gain_slave:labels[i]})
 
     target_feature = [Gain_slaves[k] for k in sorted(Gain_slaves)][-1]
 
-    print('分类特征为:{}'.format(target_feature))
+    # print('分类特征为:{}'.format(target_feature))
     return target_feature
 
 # 遍历所有特征,得到决策树
 def get_set(features):
 
-    print('分类特征为{}'.format(features))
+    # print('分类特征为{}'.format(features))
 
     '''
     思路: 遍历当前节点上的所有分类特征,在每个特征上面,根据该特征下不同的属性值,分成不同的数据块
@@ -116,18 +116,37 @@ def get_set(features):
     分别储存到不同的元素,拼接成一个列表
 
     '''
-    data_list = [ [root_data[root_data[j] == i] for i in dict_feature[j]] for j in features ]
+    data_list =  [root_data[root_data[features] == i] for i in dict_feature[features]]
 
-    for i in range(len(data_list[0])):
-        print('第{}个子集的信息为:\n{}\n*********'.format(i+1, data_list[0][i].head()))
-    
-    return data_list
+
+    for i in range(len(data_list)):
+        print('第{}个子集的信息为:\n{}\n*********'.format(i+1, data_list[i].head(2)))
+
+    '''
+    大字典的key是分类特征,values是小字典
+    小字典的key是该特征下的各个属性值,values是该属性值对应的数据块
+    '''
+    return {
+        features:{
+            dict_feature[features][i]:data_list[i] for i in range(len(dict_feature[features]))
+                 }
+           }
 
 # 得到当前节点下面的分类特征
 def get_node():
     pass
 
     return feature #返回当前分类依据,即特征
+
+def add(data):
+    count = 1
+
+    for i in data:
+
+        split_feature = [fit(i) for i in data]
+        df = [get_set(i) for i in split_feature]
+
+        return add(df)
 
 if __name__ == '__main__':
     '''
@@ -148,6 +167,8 @@ if __name__ == '__main__':
     代码部分:要求统计个数
     '''
     dataSet = [
+
+
         # 1
         ['青绿', '蜷缩', '浊响', '清晰', '凹陷', '硬滑', '好瓜'],
         # 2
@@ -185,29 +206,43 @@ if __name__ == '__main__':
         # 17
         ['青绿', '蜷缩', '沉闷', '稍糊', '稍凹', '硬滑', '坏瓜']
     ]
-    names = ['色泽', '根蒂', '敲声', '纹理', '脐部', '触感', '好坏']
-    names_X = [names[i] for i in range(len(names) - 1)]
-    root_data = pd.DataFrame(dataSet, columns=names)
+    data_labels = ['色泽', '根蒂', '敲声', '纹理', '脐部', '触感', '好坏']
+    root_data = pd.DataFrame(dataSet, columns=data_labels)
+    labels = ['色泽', '根蒂', '敲声', '纹理', '脐部', '触感']
     dict, dict_feature = dictionary_feature()
+    '''
+    输入:当前样本的列表,特征列表(删去上一次分类使用的特征)
+    输出: 分类后的数据块列表, 特征列表(同样删除特征)
+    终止条件: 
+        --- 1. 特征列表为空   while feature == []
+        --- 2. 当前数据为同一类别  len(Counter(data['好坏']).most_commin()) == 1
+        --- 3. 当前数据为空   data = []
+        --- 4. 当前数据属性值全部一样 len(Counter(data[i]).most_commin()) == 1        for i in labels
+        
+    代码过程:
+    
+       def add_tree(data):
+           feature = get_feature(i) for i in current_data
+           data_set, labels = split_data(i) for i in feature (在子数据集中遍历labels,对比gene值)
+                  删减后的labels
+           return add_tree(data)
+       
+       
+       
+    结果展示:节点1 : 数据
+        节点2-1: 数据2-1      
+        
+
+        
+    '''
 
     # 开始第一次分支
-    split_j = [fit(i) for i in [root_data]]
-    # print('开始第一次分支,分类特征为:{}'.format(split_feature))
-    df = get_set(split_j)
-    # print('开始第一次分支,数据为:{}'.format(df))
+    count = 1
+    add([root_data])
 
 
-    # 开始第二次分支
-    split_feature = [fit(i) for i in df]
-    print('开始第二次分支,分类特征为:{}'.format(split_feature))
-    df = get_set(split_feature)
-    print('开始第二次分支,数据为:{}'.format(df))
-
-    # 开始第二次分支
-    # df = [get_set(i) for i in split_feature]
-    # split_feature = fit(df)
 
 
-    # while df
-    #     df = [get_set(i) for i in split_feature]
-    #     split_feature = fit(df)
+
+    # split_feature_2 = [fit(i) for i in df[0][split_feature[0]]]
+    # print(split_feature_2)
