@@ -28,41 +28,35 @@ data_path = [
 df = [
 pd.read_csv(i, header=None, names=names,sep=',') for i in data_path
 ]
+# df2 = pd.read_csv(data_path[1], header=None, names=names,sep=',')
+# print(df1.head())
+# print(df2.head())
 df = pd.concat(df)
+# print(df.head())
+# print(df.info())
 df.replace('?', np.nan, inplace=True)
+# 删除为nan的数据
+# axis：指定按照什么维度来删除数据，0表示第一维，也就是DataFrame中的行。1表示列
+# how：指定进行什么样的删除操作，any表示只要出现任意一个特征属性为nan，那么就删除当前行或者当前列。all表示只有当所有的特征属性值均为nan的时候，才删除当前行或者当前列
 df = df.dropna(axis=0, how='any')
+# print(df.info())
 
 # 数据分割
 X = df.iloc[:, 0:-1]
 Y = df.iloc[:, -1]
 x_train, x_test, y_train, y_test = train_test_split(X, Y, random_state=20)
 
+
 # 建立模型
-algo = DecisionTreeClassifier()
+poly = PolynomialFeatures()
+x_train = poly.fit_transform(x_train)
+x_test = poly.transform(x_test)
+
+algo = LinearRegression()
 algo.fit(x_train, y_train)
-y_pred = algo.predict(x_test)
 
 # 模型预测
 print('训练集误差为：', algo.score(x_train, y_train))
 print('测试集误差为：', algo.score(x_test, y_test))
 
-# 模型展示
-t = np.arange(len(x_test))
-
-plt.plot(t, y_pred, 'r')
-plt.plot(t, y_test, 'b')
-
-# b. 可视化方式二：直接使用pydotpuls库将数据输出为pdf或者png格式
-from sklearn import tree
-import pydotplus
-
-dot_data = tree.export_graphviz(decision_tree=algo, out_file=None,
-                                feature_names=feature,
-                                class_names=['sit on bed', 'sit on chair', 'lying', 'ambulating'],
-                                filled=True, rounded=True,
-                                special_characters=True
-                                )
-
-graph = pydotplus.graph_from_dot_data(dot_data)
-graph.write_png('older.png')
-graph.write_pdf('older.pdf')
+y_pred = algo.predict(x_test)
