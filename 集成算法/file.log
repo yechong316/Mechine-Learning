@@ -1,0 +1,546 @@
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:44:13.747202 call        34 def update_weight(w, alpha, y_true, y_pred):
+22:44:13.748204 line        36     assert len(w) == len(y_pred) == len(y_true)
+22:44:13.749203 line        43         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:44:13.750203 line        46     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:44:13.751203 line        47     return np.array(w_new) / total
+22:44:13.752203 return      47     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:44:13.755205 call        34 def update_weight(w, alpha, y_true, y_pred):
+22:44:13.755205 line        36     assert len(w) == len(y_pred) == len(y_true)
+22:44:13.756204 line        43         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.046760976479141222, 0.046760976479141222, 0.046760976479141222, 0.10910894511799618, 0.1091089451...
+22:44:13.757205 line        46     total = np.sum(w_new)
+New var:....... total = 0.84169757662454203
+22:44:13.758206 line        47     return np.array(w_new) / total
+22:44:13.759205 return      47     return np.array(w_new) / total
+Return value:.. array([ 0.05556,  0.05556,  0.05556,  0.12963,  0.12963,  0.12963,        0.12963,  0.12963,  0.1296...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:46:51.787902 call        32 def update_weight(w, alpha, y_true, y_pred):
+22:46:51.787902 line        34     assert len(w) == len(y_pred) == len(y_true)
+22:46:51.788900 line        41         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:46:51.789903 line        44     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:46:51.790900 line        45     return np.array(w_new) / total
+22:46:51.791900 return      45     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:46:51.794900 call        32 def update_weight(w, alpha, y_true, y_pred):
+22:46:51.794900 line        34     assert len(w) == len(y_pred) == len(y_true)
+22:46:51.795899 line        41         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.046760976479141222, 0.046760976479141222, 0.046760976479141222, 0.10910894511799618, 0.1091089451...
+22:46:51.796900 line        44     total = np.sum(w_new)
+New var:....... total = 0.84169757662454203
+22:46:51.797899 line        45     return np.array(w_new) / total
+22:46:51.798900 return      45     return np.array(w_new) / total
+Return value:.. array([ 0.05556,  0.05556,  0.05556,  0.12963,  0.12963,  0.12963,        0.12963,  0.12963,  0.1296...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:47:31.872902 call        32 def update_weight(w, alpha, y_true, y_pred):
+22:47:31.873901 line        34     assert len(w) == len(y_pred) == len(y_true)
+22:47:31.873901 line        41         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:47:31.874903 line        44     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:47:31.875901 line        45     return np.array(w_new) / total
+22:47:31.876900 return      45     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:47:31.878901 call        32 def update_weight(w, alpha, y_true, y_pred):
+22:47:31.879900 line        34     assert len(w) == len(y_pred) == len(y_true)
+22:47:31.880902 line        41         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:47:31.881900 line        44     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:47:31.882900 line        45     return np.array(w_new) / total
+22:47:31.882900 return      45     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:49:07.341070 call        32 def update_weight(w, alpha, y_true, y_pred):
+22:49:07.342071 line        34     assert len(w) == len(y_pred) == len(y_true)
+22:49:07.342071 line        41         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:49:07.343069 line        44     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:49:07.344069 line        45     return np.array(w_new) / total
+22:49:07.345070 return      45     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:49:07.348071 call        32 def update_weight(w, alpha, y_true, y_pred):
+22:49:07.349106 line        34     assert len(w) == len(y_pred) == len(y_true)
+22:49:07.350071 line        41         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:49:07.352073 line        44     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:49:07.353071 line        45     return np.array(w_new) / total
+22:49:07.354067 return      45     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = -0.75203869838813719
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:49:07.356069 call        32 def update_weight(w, alpha, y_true, y_pred):
+22:49:07.357071 line        34     assert len(w) == len(y_pred) == len(y_true)
+22:49:07.358070 line        41         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.096423651979983788, 0.096423651979983788, 0.096423651979983788, 0.078567420131838608, 0.078567420...
+22:49:07.359069 line        44     total = np.sum(w_new)
+New var:....... total = 0.77138921583987019
+22:49:07.360069 line        45     return np.array(w_new) / total
+22:49:07.361069 return      45     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:52:27.918928 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:52:27.919952 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:52:27.920928 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:52:27.921953 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:52:27.922953 line        52     return np.array(w_new) / total
+22:52:27.922953 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:52:27.925927 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:52:27.926931 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:52:27.926931 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:52:27.927952 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:52:27.928953 line        52     return np.array(w_new) / total
+22:52:27.929934 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:52:27.932926 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:52:27.932926 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:52:27.933928 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+22:52:27.934926 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+22:52:27.935926 line        52     return np.array(w_new) / total
+22:52:27.936927 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:54:53.124504 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:54:53.124504 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:54:53.125504 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:54:53.126505 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:54:53.127505 line        52     return np.array(w_new) / total
+22:54:53.128505 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:54:53.130504 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:54:53.131504 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:54:53.132505 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:54:53.133504 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:54:53.134505 line        52     return np.array(w_new) / total
+22:54:53.134505 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:54:53.137505 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:54:53.138505 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:54:53.138505 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+22:54:53.139505 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+22:54:53.140505 line        52     return np.array(w_new) / total
+22:54:53.141504 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:56:13.158202 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:56:13.159169 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:56:13.159169 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:56:13.160201 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:56:13.161202 line        52     return np.array(w_new) / total
+22:56:13.162203 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:56:13.165169 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:56:13.165169 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:56:13.166168 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:56:13.167188 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:56:13.168167 line        52     return np.array(w_new) / total
+22:56:13.169167 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:56:13.171167 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:56:13.172167 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:56:13.172167 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+22:56:13.173167 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+22:56:13.175170 line        52     return np.array(w_new) / total
+22:56:13.176167 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:56:29.861468 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:56:29.862435 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:56:29.863467 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:56:29.864469 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:56:29.865474 line        52     return np.array(w_new) / total
+22:56:29.865474 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:56:29.868468 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:56:29.869468 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:56:29.869468 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:56:29.870487 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:56:29.871469 line        52     return np.array(w_new) / total
+22:56:29.872436 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:56:29.876436 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:56:29.876436 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:56:29.877435 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+22:56:29.878433 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+22:56:29.879432 line        52     return np.array(w_new) / total
+22:56:29.879432 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:56:36.052018 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:56:36.053052 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:56:36.054055 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:56:36.055021 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:56:36.056054 line        52     return np.array(w_new) / total
+22:56:36.056054 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:56:36.059022 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:56:36.060019 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:56:36.060019 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:56:36.061019 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:56:36.062018 line        52     return np.array(w_new) / total
+22:56:36.063018 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:56:36.066019 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:56:36.066019 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:56:36.067018 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+22:56:36.068018 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+22:56:36.069018 line        52     return np.array(w_new) / total
+22:56:36.069018 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:58:28.144584 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:58:28.145585 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:58:28.145585 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:58:28.146584 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:58:28.147585 line        52     return np.array(w_new) / total
+22:58:28.148585 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:58:28.151584 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:58:28.151584 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:58:28.152585 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:58:28.153593 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:58:28.154589 line        52     return np.array(w_new) / total
+22:58:28.155589 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:58:28.157588 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:58:28.158588 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:58:28.158588 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+22:58:28.159588 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+22:58:28.160590 line        52     return np.array(w_new) / total
+22:58:28.161589 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:58:43.347587 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:58:43.348588 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:58:43.349587 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:58:43.350587 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:58:43.351588 line        52     return np.array(w_new) / total
+22:58:43.351588 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:58:43.354585 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:58:43.354585 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:58:43.355587 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:58:43.356587 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:58:43.357587 line        52     return np.array(w_new) / total
+22:58:43.358587 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:58:43.360586 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:58:43.361587 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:58:43.361587 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+22:58:43.362587 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+22:58:43.363586 line        52     return np.array(w_new) / total
+22:58:43.364589 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:58:50.048424 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:58:50.048424 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:58:50.049424 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:58:50.050425 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:58:50.051450 line        52     return np.array(w_new) / total
+22:58:50.052451 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:58:50.054423 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:58:50.055428 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:58:50.056424 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:58:50.056424 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:58:50.057423 line        52     return np.array(w_new) / total
+22:58:50.058424 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:58:50.061424 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:58:50.061424 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:58:50.062424 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+22:58:50.063423 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+22:58:50.064424 line        52     return np.array(w_new) / total
+22:58:50.064424 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:59:04.088935 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:59:04.088935 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:59:04.089938 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+22:59:04.090936 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+22:59:04.091935 line        52     return np.array(w_new) / total
+22:59:04.092936 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:59:04.094936 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:59:04.095962 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:59:04.095962 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+22:59:04.096936 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+22:59:04.097962 line        52     return np.array(w_new) / total
+22:59:04.098961 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+22:59:04.100962 call        39 def update_weight(w, alpha, y_true, y_pred):
+22:59:04.101962 line        41     assert len(w) == len(y_pred) == len(y_true)
+22:59:04.102968 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+22:59:04.103937 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+22:59:04.104937 line        52     return np.array(w_new) / total
+22:59:04.104937 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+23:00:02.444399 call        39 def update_weight(w, alpha, y_true, y_pred):
+23:00:02.445399 line        41     assert len(w) == len(y_pred) == len(y_true)
+23:00:02.445399 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+23:00:02.446399 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+23:00:02.447402 line        52     return np.array(w_new) / total
+23:00:02.448400 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+23:00:02.451400 call        39 def update_weight(w, alpha, y_true, y_pred):
+23:00:02.451400 line        41     assert len(w) == len(y_pred) == len(y_true)
+23:00:02.452401 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+23:00:02.453403 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+23:00:02.454403 line        52     return np.array(w_new) / total
+23:00:02.454403 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+23:00:02.457401 call        39 def update_weight(w, alpha, y_true, y_pred):
+23:00:02.458405 line        41     assert len(w) == len(y_pred) == len(y_true)
+23:00:02.458405 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+23:00:02.459430 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+23:00:02.460402 line        52     return np.array(w_new) / total
+23:00:02.461402 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...
+Starting var:.. alpha = 0.42364893019360172
+Starting var:.. w = array([ 0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1])
+Starting var:.. y_pred = [1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+23:00:16.246909 call        39 def update_weight(w, alpha, y_true, y_pred):
+23:00:16.247878 line        41     assert len(w) == len(y_pred) == len(y_true)
+23:00:16.248910 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367070797725, 0.065465367...
+23:00:16.249875 line        51     total = np.sum(w_new)
+New var:....... total = 0.91651513899116821
+23:00:16.250876 line        52     return np.array(w_new) / total
+23:00:16.251877 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. alpha = 0.64964149206513044
+Starting var:.. w = array([ 0.07143,  0.07143,  0.07143,  0.07143,  0.07143,  0.07143,        0.16667,  0.16667,  0.1666...
+Starting var:.. y_pred = [1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+23:00:16.254878 call        39 def update_weight(w, alpha, y_true, y_pred):
+23:00:16.254878 line        41     assert len(w) == len(y_pred) == len(y_true)
+23:00:16.255878 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.037302354847649537, 0.037302354847649537, 0.037302354847649537, 0.13677530110804828, 0.1367753011...
+23:00:16.256878 line        51     total = np.sum(w_new)
+New var:....... total = 0.82065180664828963
+23:00:16.257872 line        52     return np.array(w_new) / total
+23:00:16.257872 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. alpha = 0.75203869838813697
+Starting var:.. w = array([ 0.04545,  0.04545,  0.04545,  0.16667,  0.16667,  0.16667,        0.10606,  0.10606,  0.1060...
+Starting var:.. y_pred = [-1, -1, -1, -1, -1, -1, 1, 1, 1, 1]
+Starting var:.. y_true = array([ 1,  1,  1, -1, -1, -1,  1,  1,  1, -1])
+23:00:16.260879 call        39 def update_weight(w, alpha, y_true, y_pred):
+23:00:16.261880 line        41     assert len(w) == len(y_pred) == len(y_true)
+23:00:16.261880 line        48         w_i * np.exp(-alpha * y_i * G_i) for w_i, y_i, G_i in zip(w, y_true, y_pred)
+New var:....... w_new = [0.09642365197998376, 0.09642365197998376, 0.09642365197998376, 0.078567420131838636, 0.078567420131...
+23:00:16.263887 line        51     total = np.sum(w_new)
+New var:....... total = 0.7713892158398703
+23:00:16.264882 line        52     return np.array(w_new) / total
+23:00:16.265877 return      52     return np.array(w_new) / total
+Return value:.. array([ 0.125  ,  0.125  ,  0.125  ,  0.10185,  0.10185,  0.10185,        0.06481,  0.06481,  0.0648...

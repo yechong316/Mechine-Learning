@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import os
-from ML.linear_regression import R2_square
+# from ML.linear_regression import R2_square
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LinearRegression
@@ -26,7 +26,7 @@ data_path = [
     filefold_path + '/' + i for i in os.listdir(filefold_path)
 ]
 df = [
-pd.read_csv(i, header=None, names=names,sep=',') for i in data_path
+pd.read_csv(i, header=None, names=names, sep=',') for i in data_path
 ]
 df = pd.concat(df)
 df.replace('?', np.nan, inplace=True)
@@ -35,10 +35,15 @@ df = df.dropna(axis=0, how='any')
 # 数据分割
 X = df.iloc[:, 0:-1]
 Y = df.iloc[:, -1]
+
+tree_1 = X.vertical_axis
+# print(tree_1)
+
 x_train, x_test, y_train, y_test = train_test_split(X, Y, random_state=20)
 
 # 建立模型
-algo = DecisionTreeClassifier()
+algo = DecisionTreeClassifier(criterion="gini", max_depth=None,
+                              min_samples_leaf=1, min_samples_split=2, min_impurity_decrease=0.0008)
 algo.fit(x_train, y_train)
 y_pred = algo.predict(x_test)
 
@@ -64,5 +69,4 @@ dot_data = tree.export_graphviz(decision_tree=algo, out_file=None,
                                 )
 
 graph = pydotplus.graph_from_dot_data(dot_data)
-graph.write_png('older.png')
-graph.write_pdf('older.pdf')
+graph.write_pdf('older_entropy.pdf')
