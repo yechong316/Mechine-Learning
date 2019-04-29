@@ -34,8 +34,6 @@ Y = pd.DataFrame(le.fit_transform(df.iloc[:, -1]))
 # 数据分割
 x_train, x_test, y_train, y_test = train_test_split(X, Y)
 
-# print('训练集的数据格式为{}'.format(x_train.shape))
-# print('测试集的数据格式为{}'.format(y_train.shape))
 x_train = np.mat(x_train)
 y_train = np.mat(y_train).reshape(-1, 1)
 
