@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1912abf-0bdb-4715-b5d5-3b2aaabc5d4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基于sklearn线性对蛋白质定位点分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/基于sklearn线性对蛋白质定位点分析（准确性0.45）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基于网格交叉验证对蛋白质定位点分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/基于网格交叉验证对蛋白质定位点分析(准确性0.23).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基于表达式对蛋白质定位点分析.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../交通规则检测/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基于决策树对蛋白质定位点分析(准确性0.23).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="1392">
               <caret line="67" column="15" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="15" />
               <folding>
                 <element signature="e#54#72#0" expanded="true" />
@@ -39,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/tree/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="2136">
               <caret line="722" column="31" selection-start-line="722" selection-start-column="27" selection-end-line="722" selection-end-column="31" />
               <folding>
                 <element signature="e#2401#2529#1" />
@@ -188,7 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/temp/abaqus_plugins/propellant" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -363,7 +360,6 @@
       <list>
         <item itemvalue="Python.基于随机森林 + 决策树对蛋白质定位点分析(准确性0.23)" />
         <item itemvalue="Python.基于决策树对蛋白质定位点分析(准确性0.23)" />
-        <item itemvalue="Python.基于网格交叉验证对蛋白质定位点分析" />
         <item itemvalue="Python.基于sklearn线性对蛋白质定位点分析" />
         <item itemvalue="Python.类别预判" />
       </list>
@@ -384,7 +380,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1974565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -450,16 +445,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基于表达式对蛋白质定位点分析.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="48" column="12" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="48" selection-end-column="12" />
-          <folding>
-            <element signature="e#54#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/基于表达式对蛋白质定位点分析.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/model_selection/_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -498,9 +484,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/基于随机森林 + 决策树对蛋白质定位点分析(准确性0.23).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基于决策树对蛋白质定位点分析(准确性0.23).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="15" />
+          <folding>
+            <element signature="e#54#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/tree/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="2136">
           <caret line="722" column="31" selection-start-line="722" selection-start-column="27" selection-end-line="722" selection-end-column="31" />
           <folding>
             <element signature="e#2401#2529#1" />
@@ -591,23 +594,6 @@
             <element signature="e#30664#32416#0" />
             <element signature="e#34252#35145#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基于决策树对蛋白质定位点分析(准确性0.23).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="67" column="15" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="15" />
-          <folding>
-            <element signature="e#54#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基于随机森林 + 决策树对蛋白质定位点分析(准确性0.23).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
